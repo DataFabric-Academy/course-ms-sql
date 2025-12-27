@@ -92,6 +92,8 @@ const config: Config = {
       logo: {
         alt: 'Knowledge Fabric Logo',
         src: 'img/logo.svg',
+        href: 'https://datafabric.academy/',
+        target: '_self',
       },
       items: [
         {
