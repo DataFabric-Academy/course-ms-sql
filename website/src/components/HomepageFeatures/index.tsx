@@ -11,32 +11,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Performance Tuning',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        เรียนรู้เทคนิคการปรับแต่งประสิทธิภาพ SQL Server ตั้งแต่พื้นฐานไปจนถึงขั้นสูง 
+        ครอบคลุม <strong>Query Optimization</strong>, <strong>Index Design</strong>, 
+        และ <strong>Execution Plan Analysis</strong>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Database Administration',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        พัฒนาทักษะการจัดการฐานข้อมูล SQL Server ผ่าน <strong>DMVs</strong>, 
+        <strong>Wait Statistics</strong>, <strong>I/O Monitoring</strong> 
+        และ <strong>Concurrency Management</strong>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Real-world Practice',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        เรียนรู้ผ่าน <strong>Lab Exercises</strong>, <strong>Demo Scripts</strong> 
+        และ <strong>Workload Generators</strong> ที่จำลองสถานการณ์จริงในองค์กร
       </>
     ),
   },

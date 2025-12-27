@@ -10,7 +10,7 @@ const wikiLinkPlugin = require('remark-wiki-link');
 
 const config: Config = {
   title: 'SQL Server Mastery',
-  tagline: 'Knowledge Fabric: Academy-as-Code System',
+  tagline: 'เรียนรู้ SQL Server Performance Tuning และ Database Administration ผ่าน Academy-as-Code',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -94,17 +94,25 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Curriculum',
+          title: 'หลักสูตร',
           items: [
             {
-              label: 'Azure Fabric',
-              to: '/category/azure-fabric', // ตัวอย่าง Link
+              label: 'SQL Server Mastery',
+              to: '/intro',
+            },
+            {
+              label: 'Main Portal',
+              href: 'https://datafabric.academy/',
             },
           ],
         },
         {
           title: 'Community',
           items: [
+            {
+              label: 'GitHub Repository',
+              href: 'https://github.com/DataFabric-Academy/course-ms-sql',
+            },
             {
               label: 'GitHub Organization',
               href: 'https://github.com/DataFabric-Academy',

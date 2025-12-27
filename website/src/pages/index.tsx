@@ -17,11 +17,15 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__description" style={{marginTop: '1rem', fontSize: '1.1rem'}}>
+          พัฒนาทักษะ SQL Server Performance Tuning, Query Optimization, และ Database Administration 
+          ผ่านการเรียนรู้แบบ Academy-as-Code ด้วย Microsoft Course 10987C และ Best Practices จากผู้เชี่ยวชาญ
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            className="button button--primary button--lg"
+            to="/intro">
+            เริ่มต้นเรียนรู้ →
           </Link>
         </div>
       </div>
@@ -33,8 +37,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - SQL Server Performance Tuning & Database Administration`}
+      description="เรียนรู้ SQL Server Performance Tuning, Query Optimization, และ Database Administration ผ่าน Academy-as-Code">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
